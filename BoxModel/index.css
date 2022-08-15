@@ -1,0 +1,76 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    padding-left: 500px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    background-color: blue;
+   /*  border-width: 10px; */
+    border-bottom: 10px;
+    border-left: 30px;
+    border-top: 50px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-right: 70px;
+}
+
+.caja2 {
+    width: 200px;
+    height: 200px;
+    /* padding-left: 500px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 35px; */
+    padding: 15px 25px 35px 500px;
+    background-color: blue;
+   /*  border-width: 10px; */
+    border-bottom: 10px;
+    border-left: 30px;
+    border-top: 50px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-right: 70px;
+    inline-size: auto;
+    border-radius: 50px;
+}
+
+
+.caja3 {
+    width: 200px;
+    height: 200px;
+    /* padding-left: 500px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 35px; */
+    padding: 15px;
+    background-color: blue;
+   /*  border-width: 10px; */
+    border-bottom: 10px;
+    border-left: 30px;
+    border-top: 50px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    margin-right: 70px;
+    border-radius: 100%;
+}
+
+.boton-1{
+    inline-size: auto;
+    margin-right: 50px;
+}
+.boton-2{
+    padding-left: 50px;
+}

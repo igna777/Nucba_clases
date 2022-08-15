@@ -1,0 +1,15 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+    position: static;
+}
+
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+
