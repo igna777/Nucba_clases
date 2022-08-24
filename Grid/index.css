@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+.container-grid{
+    height: 100%;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 2fr;
+
+}
+
+.item-1{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.item-2{
+    background-color: blue;
+    color: aliceblue;
+}
+.item-3{
+    background-color: red;
+    color: aliceblue;
+}
+.item-4{
+    background-color: pink;
+    color: black;
+}
