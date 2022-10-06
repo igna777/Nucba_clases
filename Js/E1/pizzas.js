@@ -59,21 +59,13 @@ arrayPizzas.forEach((e) => {
 
 console.log('');
 
-let pizzasMenos600 = arrayPizzas.find((e) => {
-    if (e.precio < 600) {
-        return e;
-    }
+const pizzasMenos600 = arrayPizzas.every((e) => {
+
+    return e.precio < 600;
 });
-let banderPizzas;
 
-if (pizzasMenos600 != undefined) {
-    banderPizzas = true;
-}
-else {
-    banderPizzas = false;
-}
 
-if (banderPizzas != false) {
+if (pizzasMenos600 != false) {
     console.log('Hay pizzas con el precio menor a $600');
 } else {
     console.log('No hay pizzas con el precio menor a $600');
